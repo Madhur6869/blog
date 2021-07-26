@@ -1,0 +1,130 @@
+/* ******************************************************************************** */
+.banner {
+  position: relative;
+  height: 45vh;
+  padding: 0 px;
+  background-image: url("https://miro.medium.com/max/1400/1*0CLDfNpRcu7iSQ5xD7Up_g.jpeg");
+  background-size: cover;
+}
+.banner-text {
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  margin-left: 6%;
+  max-width: 30%;
+  max-height: 80%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  background-color: white;
+  color: black;
+}
+.banner-text > h4 {
+  padding-top: 5%;
+  padding-bottom: 3%;
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26 px;
+}
+.banner-text > article {
+  font-family: Open-sans;
+}
+/* ******************************************************************************** */
+.section-title {
+  padding-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2%;
+  width: 30%;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 200%;
+  text-align: center;
+  color: #1c1c1c;
+}
+.section-title > h2 {
+  margin: auto;
+  padding: 1%;
+  width: max-content;
+  border-bottom: 3px solid black;
+}
+/* ******************************************************************************** */
+.top-picks {
+  width: 70%;
+  margin: auto;
+}
+a:link {
+  text-decoration: none;
+}
+a{
+  color: #1c1c1c;
+}
+a:visited {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+
+a:active {
+  text-decoration: none;
+  color: #1c1c1c;
+}
+.row{
+  margin: 2%;
+}
+.blog-cover{
+  max-height: 100%;
+  max-width: 100%;
+}
+.blog-cover-img {
+  max-width: 100%;
+  /* max-height: 100%; */
+  height: auto;
+  margin: auto;
+  object-fit: scale-down;
+}
+.blog-title {
+  font-family: Libre Baskerville;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 150%;
+  margin: 0;
+}
+.date {
+  font-size: 100%;
+}
+@media screen and (max-width: 768px) {
+  .top-picks {
+    width: 90%;
+    margin: auto;
+  }
+  .blog-description {
+    display: none;
+  }
+  .blog-title {
+    font-size: 15px;
+    line-height: 100%;
+  }
+  .date {
+    font-size: 10px;
+  }
+}
+@media screen and (min-width: 768px){
+  
+  .blog-title {
+    font-size: 20px;
+  }
+  .date {
+    font-size: 15px;
+  }
+  .blog-description {
+    font-size: 15px;
+  }
+}
+/* ******************************************************************************** */
